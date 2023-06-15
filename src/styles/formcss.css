@@ -54,7 +54,7 @@ body {
  
 }
 #rbset {
-  margin-left: -580px;
+  margin-left: -500px;
   padding-bottom: 10px;
 }
 .rbutton {
@@ -277,7 +277,8 @@ margin-bottom: 10px;
 
 .bsec{
 /* float: right; */
-margin-right: -330%;
+float: right;
+margin-top: 3%;
 
 }
 .first-bg {
@@ -306,7 +307,7 @@ margin-right: -330%;
   }
 } */
 
-@media only screen and (min-width: 800px) and (max-width: 1600px) {
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
   
 
   .inplaces {
@@ -330,17 +331,93 @@ margin-right: -330%;
 }
 .bsec{
   /* float: right; */
-  margin-right: -55%;
+  margin-right: 0%;
   margin-top: 10%;
 
   
   }
+  
 }
-@media only screen and (max-width: 799px) { 
+@media only screen and (max-width: 1199px) { 
+  .inplaces::placeholder {
+   
+    font-size: 20px;
+   
+ 
+   }
+  .textp::placeholder {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36.31px;
+  }
   .detsform{
   
     grid-template-columns: auto ;
+    margin-right: -13%;
+    margin-left: -6%;
  
   }
+  .form-background {
+  
+    padding-bottom: 650px;
+ 
+}
+#rbset {
+  /* margin-left: -50%; */
+margin-left: -18%;
+margin-right: -15%;
+
+
+
+ 
+
+
+
+  
+ 
+ 
+}
+.titlep{
+ 
+  font-size: 25px;
+  width: 110%;
+  margin-left: 0%;
+ 
+}
+.rbutton {
+  /* margin-right: 10%; */
+  margin-right:3%;
+
+}
+.icon-sv{
+
+  margin-left: -25px;
+  
+
+  
+  
+ 
+
+}
+.bsec{
+  margin-top: 22%;
+}
+#cal{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.bd {
+
+  width: 241px;
+  height: 57px;
+ 
+
+  font-size: 15px;
+ 
+
+  
+}
+
 }
 

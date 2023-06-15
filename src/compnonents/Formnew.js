@@ -4,11 +4,30 @@ import React from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { useState } from "react";
+import { useEffect } from 'react';
 const Formnew  = () => 
+
+
+
 
 {
   const [date, setDate] = useState(null);
   const [date2,setDate2] = useState(null);
+  let windows = window.innerWidth;
+ 
+  useEffect(()=>{
+  
+    if (windows <800) {
+      var gval = document.querySelectorAll('#icond');
+  
+      for(let i=0;i<gval.length;i++) {
+        gval[i].style.width='30';
+    
+      }
+    }
+   
+  
+  });
 
 
 return (
