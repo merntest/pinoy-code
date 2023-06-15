@@ -121,11 +121,12 @@ return (
       
       </Form.Group>
      </div>
-     <div className='bsec'>
-     <button className='bd'> Search Flights</button>
-     </div>
+    
    
       </div>
+      <div className='bsec'>
+     <button className='bd'> Search Flights</button>
+     </div>
       
     </Form>
 

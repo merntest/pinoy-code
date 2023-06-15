@@ -306,7 +306,7 @@ margin-right: -330%;
   }
 } */
 
-@media only screen and (min-width: 700px) and (max-width: 1600px) {
+@media only screen and (min-width: 800px) and (max-width: 1600px) {
   
 
   .inplaces {
@@ -330,49 +330,17 @@ margin-right: -330%;
 }
 .bsec{
   /* float: right; */
-  margin-right: -5%;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  margin-right: -55%;
+  margin-top: 10%;
 
   
   }
 }
+@media only screen and (max-width: 799px) { 
+  .detsform{
+  
+    grid-template-columns: auto ;
+ 
+  }
+}
+
