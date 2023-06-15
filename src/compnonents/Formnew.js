@@ -22,6 +22,7 @@ const Formnew  = () =>
   
       for(let i=0;i<gval.length;i++) {
         gval[i].style.width='30';
+        gval[i].style.height='30';
     
       }
     }
