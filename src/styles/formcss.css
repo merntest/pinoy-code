@@ -306,7 +306,7 @@ margin-right: -330%;
   }
 } */
 
-@media only screen and (min-width: 700px) and (max-width: 1400px) {
+@media only screen and (min-width: 700px) and (max-width: 1600px) {
   
 
   .inplaces {
@@ -330,7 +330,49 @@ margin-right: -330%;
 }
 .bsec{
   /* float: right; */
-  /* margin-right: -330%; */
+  margin-right: -5%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   }
 }
