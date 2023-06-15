@@ -1,0 +1,36 @@
+.ft {
+    background-color:#0066c3;
+}
+.texp{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42.36px;
+    text-align: left;
+    color: #FFFFFFFF;
+}
+.textp2{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-align: left;
+    color: #FFFFFFFF;
+    margin-top: -1%;
+}
+.card-set{
+    margin: 4%;
+    margin-top: 2%;
+}
+.card-agent{
+    border-radius: 40px;
+    float: left;
+    margin-left: 2%;
+}
+.agent-img{
+    border-radius: 40px;
+    
+}
+#icon-d{
+    background-color: #0066c3;
+}

@@ -1,0 +1,306 @@
+body {
+    background-color: #e6e6e6;
+}
+.form-background {
+    padding: 120px;
+    padding-bottom: 250px;
+   /* width:90%; */
+    background-color: white;
+    margin: 6%;
+    border-radius: 38px 38px 38px 38px;
+}
+#icon-icon{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-top: -130px;
+   margin-left: -60px;
+}
+.icon-sv{
+    float: left;
+    
+  
+    
+    
+   
+  
+}
+.textc{
+    font : Inter;
+    font-weight: 700;
+    size: 35px;
+    line-height: 42.36px;
+}
+.titlep{
+    float: left;
+    margin-top: -75px;
+    margin-left: 5px;
+    font: Inter;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42.36px;
+    color: #0066C3;
+}
+.rb {
+    margin-top: 5px;
+    float: left;
+    margin-left: -60px;
+    Font:Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+ 
+}
+#rbset {
+  margin-left: -680px;
+  padding-bottom: 10px;
+}
+.rbutton {
+    margin-right: 105px;
+
+}
+input[type="radio"] {
+    -ms-transform: scale(0.8); /* IE 9 */
+    -webkit-transform: scale(0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8);
+  }
+
+  .inplaces {
+    width: 250px;
+    padding: 5px;
+    
+  }
+  .mb-1{
+    margin-left: 15px;
+  }
+  .lbl {
+    margin-right: 190px;
+    Font:Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #656565;
+  }
+  .places {
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    float: left;
+   /* margin-right: 30px; */
+    padding: 5px;
+  }
+  #idsvg{
+     stroke: black; /* Background color against your svg */
+      stroke-width: 2px;
+      z-index: 1;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  
+     
+  }
+
+
+  .pf{
+    border: 2px solid #B1B1B1;
+    border-radius: 21px;
+    overflow: hidden;
+
+
+    
+  }
+  .pf input {
+    border: none;
+  }
+
+  #liar {
+
+
+
+
+   
+  }
+
+  .line {
+    border:1px solid  #B1B1B1;
+    
+  /* height:10px;
+  margin: 5px; */
+margin-bottom: 10px;
+ 
+   
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  }
+  .line2{
+    border:1px solid  #B1B1B1;
+    
+    /* height:10px;
+    margin: 5px; */
+    margin-top: 15px;
+  
+
+     
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .linset {
+    display: grid;
+  }
+
+
+  .inplaces::placeholder {
+   font-style: Inter;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 33.89px;
+
+  }
+  #first {
+   /* margin-right: 30px; */
+}
+.detsform{
+  display: grid;
+  grid-template-columns: auto auto auto;
+ gap: 60px;
+}
+.datesform {
+  border: 2px solid #B1B1B1;
+  border-radius: 21px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+  
+  
+}
+.line3 {
+  border:1px solid  #B1B1B1;
+    
+  /* height:10px;
+  margin: 5px; */
+/* 
+  height: 150px; */
+
+
+
+
+}
+.dateor {
+  /* margin-top: 30px; */
+}
+.dateor{
+  border: none;
+  width: 70%;
+  
+  padding-bottom: 20px;
+  overflow-wrap: break-word;
+}
+#cal {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  
+
+  
+  /* border: 2px solid #B1B1B1; */
+}
+#indate {
+  margin-left: -40px;
+ 
+}
+#indate::placeholder {
+  
+  
+}
+.passengers{
+
+  border:1px solid  #B1B1B1;
+
+  border-radius: 21px;
+  
+}
+#icond{
+  margin-left: -35px;
+}
+.textp{
+  width: 50%;
+}
+.plabel {
+ margin-right: 100px;
+ font-family: Inter;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 21.78px;
+ color: #656565;
+ 
+}
+.passit {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 15px;
+}
+.textp{
+  border: none;
+ 
+  
+}
+
+.textp::placeholder {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36.31px;
+}
+.bd {
+  background-color: #0066C3;
+  width: 341px;
+  height: 87px;
+  border-radius: 17px;
+  border: none;
+  font: Inter;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30.26px;
+  color:#ffffff ;
+
+  
+}
+
+.bsec{
+/* float: right; */
+margin-right: -330%;
+
+}
+.first-bg {
+ margin-top: -230px;
+}
+.icon-sv svg{
+ animation-name: fcol;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+
+
+}
+
+
+@keyframes fcol {
+  from {
+    fill-opacity:0;
+    stroke:  black ;
+   
+    
+    
+  }
+  to {fill: black;
+    stroke:  black ;
+    
+  }
+}
+
