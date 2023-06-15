@@ -176,6 +176,8 @@ margin-bottom: 10px;
   overflow: hidden;
   display: grid;
   grid-template-columns: auto auto auto;
+  /* width: 50%; */
+
   
   
   
@@ -282,15 +284,15 @@ margin-right: -330%;
  margin-top: -230px;
 }
 .icon-sv svg{
- animation-name: fcol;
+ /* animation-name: fcol;
  animation-duration: 4s;
- animation-iteration-count: infinite;
+ animation-iteration-count: infinite; */
 
 
 }
 
 
-@keyframes fcol {
+/* @keyframes fcol {
   from {
     fill-opacity:0;
     stroke:  black ;
@@ -302,5 +304,33 @@ margin-right: -330%;
     stroke:  black ;
     
   }
-}
+} */
 
+@media only screen and (min-width: 700px) and (max-width: 1400px) {
+  
+
+  .inplaces {
+    width: 80%;
+    padding: 5px;
+    
+  }
+  .detsform{
+  
+    grid-template-columns: auto auto;
+ 
+  }
+  .form-background {
+
+    padding-bottom: 450px;
+ 
+}
+#rbset {
+  margin-left: -20%;
+ 
+}
+.bsec{
+  /* float: right; */
+  /* margin-right: -330%; */
+  
+  }
+}

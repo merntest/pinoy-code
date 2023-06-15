@@ -74,15 +74,7 @@ return (
       </Form.Group>
     
       </div>
-      <div className='places' id='liar'>
-        <div className='linset'>
-        <span className='line'></span>
-      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" id='idsvg' >
-  <path  fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"  />
-</svg>
-<span className='line2'></span>
-</div>
-      </div>
+    
       <div className='places'>
       <Form.Group className="mb-1" controlId="formBasicEmail">
         <Form.Label  className='lbl'>Origin</Form.Label>
