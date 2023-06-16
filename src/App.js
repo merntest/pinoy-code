@@ -19,7 +19,7 @@ function App() {
       <Services/>
       <Trips/>
       <Destinations/>
-      <Callus/>
+      {/* <Callus/> */}
       <Footer/>
 
     </div>

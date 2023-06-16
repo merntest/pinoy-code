@@ -4,14 +4,32 @@ import Card from 'react-bootstrap/Card';
 import '../styles/Tripcss.css';
 import img3 from '../images/firstcard.png';
 import arrowr from '../images/arrowr.png';
+import { useEffect } from 'react';
 const Trips = () =>{
+
+  useEffect(()=>{
+    var crid =document.querySelectorAll('#crid');
+    var cpid = document.querySelectorAll('#cpid');
+    var windows = window.innerWidth;
+
+    if(windows <800) {
+      for (let i=0;i<crid.length;i++) {
+        crid[i].style.width='20rem';
+
+      }
+
+      for(let i=0;i<cpid.length;i++) {
+        cpid[i].style.width='18em';
+      }
+    }
+  });
 return (
     <div className='cs' >
         <p className='als'>Dont miss these Round Trip Fares <button className='btals'> See More</button></p> 
          <Carousel className>
       <Carousel.Item className='csi'>
         <div className='view'>
-      <Card className='cr' style={{ width: '35rem' }}>
+      <Card className='cr' id='crid' style={{ width: '35rem' }}>
       <Card.Img variant="top" src={img3} className='img-br' />
       <div className='overlay'>
         <div className='cl'>
@@ -45,7 +63,7 @@ return (
         
       </Card.Body>
     </Card>
-    <Card className='cp' style={{ width: '22rem' }}>
+    <Card className='cp' id='cpid' style={{ width: '22rem' }}>
       <Card.Img variant="top" src={img3} className='img-br2'  />
       <div className='overlay'>
         <div className='cl'>
@@ -74,7 +92,7 @@ return (
         
       </Card.Body>
     </Card>
-    <Card className='cp' style={{ width: '22rem' }}>
+    <Card className='cp'  id='cpid'   style={{ width: '22rem' }}>
       <Card.Img variant="top" src={img3} className='img-br2'  />
       <div className='overlay'>
         <div className='cl'>
@@ -109,7 +127,7 @@ return (
       
       <Carousel.Item className='csi'>
         <div className='view'>
-      <Card className='cr' style={{ width: '35rem' }}>
+      <Card className='cr' id='crid' style={{ width: '35rem' }}>
       <Card.Img variant="top" src={img3} className='img-br' />
       <div className='overlay'>
         <div className='cl'>
@@ -150,7 +168,7 @@ return (
         
       </Card.Body>
     </Card>
-    <Card className='cp' style={{ width: '22rem' }}>
+    <Card className='cp'  id='cpid'   style={{ width: '22rem' }}>
       <Card.Img variant="top" src={img3} className='img-br2'  />
       <Card.Body>
       <Card.Title className='ct'>London <img src={arrowr} id='arrow-pl'></img> manila
@@ -179,7 +197,7 @@ return (
         
       </Card.Body>
     </Card>
-    <Card className='cp' style={{ width: '22rem' }}>
+    <Card className='cp'  id='cpid'   style={{ width: '22rem' }}>
       <Card.Img variant="top" src={img3} className='img-br2'  />
       <Card.Body>
       <Card.Title className='ct'>London <img src={arrowr} id='arrow-pl'></img> manila

@@ -41,8 +41,9 @@ const Services = () => {
     ]
 return (
     <div>
+            <p className="bwc">Book with Confidence</p>
     <div className='services-ini'>
-        <p className="bwc">Book with Confidence</p>
+    
         </div>
         <br></br>
         <br></br>

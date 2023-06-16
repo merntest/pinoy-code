@@ -4,6 +4,7 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 58.09px;
+    margin-top: 10%;
 }
 .services-ini {
     float: left;
@@ -84,6 +85,79 @@ width: 200%;
   line-height: 30.26px;
   color: #656565;
   width: 60%;
+}
+@media only screen and (max-width: 900px) { 
+  .bwc{
+
+    margin-top: 20%;
+}
+.items-services {
+
+  grid-template-columns: auto auto ;
+  margin-left: 5%;
+ 
+ 
+}
+.headd{
+
+  font-size: 22px;
+
+  
+}
+.dep{
+
+  font-size: 20px;
+
+}
+.t {
+  /* margin: 3%; */
+width: 80%;
+ 
+}
+.t img {
+  width: 28px;
+  height: 28px;
+}
+.bwc{
+  
+  font-size: 33px;
+ 
+}
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1600px){
+  .items-services {
+    
+    margin-left: 0%;
+   
+   
+  }
+  .t {
+    /* margin: 3%; */
+  width: 200%;
+   
+  }
+  .headd{
+
+    font-size: 22px;
+ 
+    
+  }
+  .dep{
+
+    font-size: 20px;
+
+  }
+  .t img {
+    width: 38px;
+    height: 38px;
+  }
+  .bwc{
+  
+    font-size: 38px;
+   
+}
 }
 /* .item img{
     width: 48px;

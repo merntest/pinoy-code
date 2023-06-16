@@ -47,51 +47,91 @@ const Footer = () =>{
     ]
 return (
     <div className="ft">
+       <div className="num">
+        Call us 24/7 at <span className='num-un'> 1-895-884-0175 </span> to get great deals!
+
+    </div>
  <Carousel>
       <Carousel.Item>
       <div className='card-set'>
       <Card className='card-agent' style={{ width: '18rem' }}>
       <Card.Img variant="top" src={april} className='agent-img' />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        <Card.Title className='ct'>April perara</Card.Title>
+        <Card.Text className='ctt'>
+          Service agent
+          <Card.Text className='ctt' >
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+          
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+          
+        </Card.Text>
+      
+        <Button variant="primary" className='btlf'>Chat Now</Button>
       </Card.Body>
     </Card>
     <Card className='card-agent' style={{ width: '18rem' }}>
       <Card.Img variant="top" src={haidie} className='agent-img' />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+      <Card.Title className='ct'>April perara</Card.Title>
+        <Card.Text className='ctt'>
+          Service agent
+          <Card.Text className='ctt' >
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+          
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+          
+        </Card.Text>
+      
+        <Button variant="primary" className='btlf'>Chat Now</Button>
       </Card.Body>
     </Card>
     <Card className='card-agent' style={{ width: '18rem' }}>
       <Card.Img variant="top" src={idk} className='agent-img' />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+      <Card.Title className='ct'>April perara</Card.Title>
+        <Card.Text className='ctt'>
+          Service agent
+          <Card.Text className='ctt' >
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+          
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+          
+        </Card.Text>
+      
+        <Button variant="primary" className='btlf'>Chat Now</Button>
       </Card.Body>
     </Card>
     <Card className='card-agent' style={{ width: '18rem' }}>
       <Card.Img variant="top" src={rhea} className='agent-img' />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+      <Card.Title className='ct'>April perara</Card.Title>
+        <Card.Text className='ctt'>
+          Service agent
+          <Card.Text className='ctt' >
+        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+          
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+          
+        </Card.Text>
+      
+        <Button variant="primary" className='btlf'>Chat Now</Button>
       </Card.Body>
     </Card>
     
