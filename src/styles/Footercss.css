@@ -8,6 +8,7 @@
     line-height: 42.36px;
     text-align: left;
     color: #FFFFFFFF;
+    margin-left: 5%;
 }
 .textp2{
     font-family: Inter;
@@ -17,6 +18,7 @@
     text-align: left;
     color: #FFFFFFFF;
     margin-top: -1%;
+    margin-left: 5%;
 }
 .card-set{
     /* margin: 4%; */

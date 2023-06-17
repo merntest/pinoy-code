@@ -9,6 +9,7 @@ import Destinations from './compnonents/Destinations';
 import Callus from './compnonents/Callus';
 import Testslider from './compnonents/Testslider';
 import Footer from './compnonents/Footer';
+import Email from './compnonents/Email';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Destinations/>
       {/* <Callus/> */}
       <Footer/>
+      <Email/>
 
     </div>
   );

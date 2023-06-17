@@ -1,0 +1,136 @@
+.blun{
+    text-decoration: underline;
+    text-decoration-color:#0066c3;
+}
+.inem {
+    overflow: auto;
+    margin: 5%;
+}
+.emcn{
+    float: left;
+    width:95%;
+    margin-right: 1%;
+    padding: 1%;
+}
+.bn{
+    border: 1px solid black;
+    width: 45%; 
+    float: left;
+    margin-right: 1%;
+    border-radius: 14px;
+}
+.btsu {
+    float: left;
+    margin-right: 1.8%;
+    background-color:  #003D75;
+    padding: 1.4%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.txp{
+    float: left;
+    width: 35%;
+    color:  #0066C3;
+    font-style: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21.78px;
+    text-align: left;
+}
+.sent{
+    color:  #656565;
+    font-style: Inter;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    margin-bottom: 2%;
+
+    
+}
+.mgrl{
+margin-left: 12%;
+margin-right: 5%;
+}
+.emcn::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    
+    color: #A0A0A0;
+    
+    
+
+}
+.emcn{
+    border: none;
+    margin: 2%;
+}
+.eml {
+    border: 2px solid #B1B1B1;
+}
+@media only screen and (min-width: 800px) and (max-width: 1450px) {
+    .mgrl{
+        margin-left: 2%;
+        margin-right: 5%;
+        }
+
+.emcn::placeholder{
+
+    font-size: 15px;
+
+}
+.emcn{
+
+    margin: 1%;
+}
+.txp{
+
+    font-size: 12px;
+   
+}
+}
+@media only screen and (max-width: 799px) {
+    .mgrl{
+        margin-left: 0%;
+        margin-right: 5%;
+        }
+        .txp{
+            float: none;
+            font-size: 12px;
+            width: 100%;
+           
+        }
+        .emcn::placeholder{
+
+            font-size: 15px;
+        
+        }
+       
+        .bn{
+           
+            width: 65%; 
+            margin-right: 5%;
+            
+        }
+        .emcn{
+          
+            width:85%;
+        
+        }
+        .btsu {
+          
+            padding-right: 145%;
+            background-color:  #003D75;
+            padding: 7%;
+          
+        }
+        .sent{
+           
+            font-size: 25px;
+     
+        
+            
+        }
+ }
