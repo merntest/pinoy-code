@@ -1,31 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar2 from './compnonents/Navbarreal';
-import Banner from './compnonents/Banner';
-import Form from './compnonents/Formnew';
-import Services from './compnonents/Services';
-import Trips from './compnonents/Trips';
-import Destinations from './compnonents/Destinations';
-import Callus from './compnonents/Callus';
-import Testslider from './compnonents/Testslider';
-import Footer from './compnonents/Footer';
-import Email from './compnonents/Email';
-import Cardsecpage from './compnonents/Cardsecpage';
+
+import { BrowserRouter , Route , Routes} from "react-router-dom";
+import Offerpage from './compnonents/Offerpage';
+import Home from './compnonents/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar2/>
-      <Banner/>
-      <Form/>
-      <Services/>
-      <Trips/>
-      <Destinations/>
-      {/* <Callus/> */}
-      <Footer/>
-      <Email/>
-      <Cardsecpage/>
-    </div>
+    // <div className="App">
+    //   <Navbar2/>
+    //   <Banner/>
+    //   <Form/>
+    //   <Services/>
+    //   <Trips/>
+    //   <Destinations/>
+    //   {/* <Callus/> */}
+    //   <Footer/>
+    //   <Email/>
+     
+    // </div>
+    <BrowserRouter>
+    <Routes>
+     <Route path='/offerpage' element={<Offerpage/>}/>
+     <Route path='/' element={<Home/>}/>
+   </Routes>
+    </BrowserRouter>
+ 
   );
 }
 
