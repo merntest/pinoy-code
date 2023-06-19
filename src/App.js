@@ -10,6 +10,7 @@ import Callus from './compnonents/Callus';
 import Testslider from './compnonents/Testslider';
 import Footer from './compnonents/Footer';
 import Email from './compnonents/Email';
+import Cardsecpage from './compnonents/Cardsecpage';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
       {/* <Callus/> */}
       <Footer/>
       <Email/>
-
+      <Cardsecpage/>
     </div>
   );
 }
