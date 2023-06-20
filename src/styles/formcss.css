@@ -282,7 +282,7 @@ margin-top: 3%;
 
 }
 .first-bg {
- margin-top: -230px;
+ margin-top: -250px;
 }
 .icon-sv svg{
  /* animation-name: fcol;
@@ -336,7 +336,9 @@ margin-top: 3%;
 
   
   }
-  
+  .first-bg {
+    margin-top: -150px;
+   }
 }
 @media only screen and (max-width: 1199px) { 
   .inplaces::placeholder {
@@ -418,6 +420,8 @@ margin-right: -15%;
 
   
 }
-
+.first-bg {
+  margin-top: -70px;
+ }
 }
 
