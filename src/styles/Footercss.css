@@ -64,3 +64,62 @@
     padding: 5%;
     border-radius: 11px;
   }
+  .it-em{
+    float: left;
+    margin-left: 5%;
+    z-index: 1;
+
+  }
+  .sr {
+    overflow: auto;
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
+  .tex-ty{
+    float: right;
+    text-align: left;
+    margin-left: -20%;
+   
+   
+  }
+  .img-ser{
+    margin-top: -25%;
+    height: 200px;
+    width: 200px;
+    
+   
+  }
+  .tp-he{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+  }
+  .tp-hsp{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+margin-top: -7%;
+  }
+  .ft .carousel-control-prev-icon {
+    margin-left: -15px;
+  }
+  @media only screen and (max-width: 900px) {
+    .sr {
+ 
+        padding-top: 15%;
+        padding-bottom: 2%;
+      }
+      .it-em{
+     margin: 5%;
+    
+      }
+  }

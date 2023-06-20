@@ -1,9 +1,18 @@
 #cp2id {
     margin-left: 9.5%;
-   background-color: none !important;
-
+  
   
 }
 .seccard{
     margin-top: 3%;
+    /* display: grid;
+    grid-template-columns: auto auto auto */
+overflow: auto;
+
+
+}
+.pdg {
+    padding: 3%;
+    margin: 2%;
+    margin-bottom: -6%;
 }

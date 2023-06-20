@@ -6,6 +6,7 @@ import '../styles/Cardsecondcss.css';
 const Cardsecondpage = () => {
     
 return (
+  <div>
 <div className='seccard'>
 <Card  className='cp' id='cp2id'  style={{ width: '22rem' }}>
       <Card.Img variant="top" src={img3} className='img-br2'  />
@@ -36,7 +37,7 @@ return (
         
       </Card.Body>
     </Card>
-    <Card className='cp'   id='cp2id'  style={{ width: '22rem' }}>
+    <Card  className='cp' id='cp2id'  style={{ width: '22rem' }}>
       <Card.Img variant="top" src={img3} className='img-br2'  />
       <div className='overlay'>
         <div className='cl'>
@@ -65,7 +66,7 @@ return (
         
       </Card.Body>
     </Card>
-    <Card  className='cp'   id='cp2id'  style={{ width: '22rem' }}>
+    <Card  className='cp'  id='cp2id'  style={{ width: '22rem' }}>
       <Card.Img variant="top" src={img3} className='img-br2'  />
       <div className='overlay'>
         <div className='cl'>
@@ -94,8 +95,11 @@ return (
         
       </Card.Body>
     </Card>
-    
-    
+  
+</div>
+<div className='pdg'>
+    <p className='subinc'>* All fares above were last found on . Apr 30 , 2023 at 2:25 PM . Fares are one way or round trip as indicated above. Fares incl. all fuel surchages .<span className='un'>taxes & fees</span> and our <span className='un'> services fees.</span> Displayed fares are based on historical data , are subject to change and cannot be guaranteed at the time of booking.<span className='un'>See all booking terms and conditions .</span>  Ref: tW3JFNLIEUSBYUq3Fq7cjw</p>
+    </div>
 </div>
 )
 }

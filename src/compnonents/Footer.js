@@ -141,7 +141,50 @@ return (
     <p className='texp'> Why to Book with Call Center</p>
     <p className='textp2'>Discover the beauty of pillipines</p>
     <div className='sr'>
-        
+        <div className='it-em'>
+          <img className='img-ser' src={travelexperts}></img>
+         <div className='tex-ty'>
+          <p className='tp-he'>
+           expert guidance by our 
+          </p>
+          <p className='tp-hsp'>
+            Travelexperts
+          </p>
+          </div>
+        </div>
+        <div className='it-em'>
+          <img className='img-ser' src={bookingconf}></img>
+         <div className='tex-ty'>
+          <p className='tp-he'>
+           Immediate
+          </p>
+          <p className='tp-hsp'>
+            Travelexperts
+          </p>
+          </div>
+        </div>
+        <div className='it-em'>
+          <img className='img-ser' src={cancellation}></img>
+         <div className='tex-ty'>
+          <p className='tp-he'>
+        24-hour
+          </p>
+          <p className='tp-hsp'>
+            cancellation
+          </p>
+          </div>
+        </div>
+        <div className='it-em'>
+          <img className='img-ser' src={pay}></img>
+         <div className='tex-ty'>
+          <p className='tp-he'>
+           plans
+          </p>
+          <p className='tp-hsp'>
+            Flexible payment
+          </p>
+          </div>
+        </div>
     </div>
 
     </div>

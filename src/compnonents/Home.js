@@ -10,6 +10,7 @@ import Cardsecpage from '../compnonents/Cardsecpage';
 import Cardsecondpage from '../compnonents/Cardsecondpage';
 import Footer from '../compnonents/Footer';
 import Email from '../compnonents/Email';
+import Footertwo from './Footertwo';
 
 const Home = () => {
 return (
@@ -25,6 +26,7 @@ return (
       {/* <Callus/> */}
       <Footer/>
       <Email/>
+      <Footertwo/>
      
     </div>
 )
