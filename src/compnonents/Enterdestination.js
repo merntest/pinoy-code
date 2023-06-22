@@ -19,13 +19,13 @@ const Enterdestination = () => {
         formData.append('price',txtprice);
         formData.append('image',fileimage);
 
-        const response = await axios.post("http://127.0.0.1:8000/api/destinations",formData,{
-            headers:{'Content-Type':"multipart/form-data"},
-        });
+        // const response = await axios.post("http://127.0.0.1:8000/api/destinations",formData,{
+        //     headers:{'Content-Type':"multipart/form-data"},
+        // });
 
-        if(response) {
-            console.log(response.data);
-        }
+        // if(response) {
+        //     console.log(response.data);
+        // }
     }
 
     const handlesubmit = async(e) => {
@@ -54,7 +54,7 @@ const Enterdestination = () => {
       </Form.Group>
       <Form.Group controlId="formFile" className="mb-3">
         <Form.Label>Default file input example</Form.Label>
-        <Form.Control type="file"  onChange={(e)=>setimage(e.target.value)}/>
+        <Form.Control type="file"  onChange={(e)=>setimage(e.target.files[0])}/>
       </Form.Group>
       <Button type='submit' variant="primary">submit</Button>
     </Form>
