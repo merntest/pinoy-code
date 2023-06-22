@@ -19,13 +19,13 @@ const Enterdestination = () => {
         formData.append('price',txtprice);
         formData.append('image',fileimage);
 
-        // const response = await axios.post("http://127.0.0.1:8000/api/destinations",formData,{
-        //     headers:{'Content-Type':"multipart/form-data"},
-        // });
+        const response = await axios.post("http://127.0.0.1:8000/api/destinations",formData,{
+            headers:{'Content-Type':"multipart/form-data"},
+        });
 
-        // if(response) {
-        //     console.log(response.data);
-        // }
+        if(response) {
+            console.log(response.data);
+        }
     }
 
     const handlesubmit = async(e) => {
