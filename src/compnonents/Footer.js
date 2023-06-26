@@ -48,7 +48,7 @@ const Footer = () =>{
 return (
     <div className="ft">
        <div className="num">
-        Call us 24/7 at <span className='num-un'> 1-895-884-0175 </span> to get great deals!
+       Need assistance? Your "Pinoy Kaibigan" is just a call away at  <span className='num-un'> 1-895-884-0175 </span> , (24 x 7)
 
     </div>
  <Carousel>

@@ -17,8 +17,9 @@ const Email = () => {
     });
 return (
     <div>
-        
+      
         <div className='inem'>
+        <p className='sent'>Looking for discounted travel deals to the Philippines? Submit your email now.</p>
         <p className='sent'>Like travel deals? Enter your email and we'll them your way.</p>
         <div className='mgrl'>
          

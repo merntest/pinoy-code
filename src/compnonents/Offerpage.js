@@ -6,6 +6,7 @@ import Footer from '../compnonents/Footer';
 import Email from '../compnonents/Email';
 import Cardsecpage from '../compnonents/Cardsecpage';
 import Cardsecondpage from '../compnonents/Cardsecondpage';
+import Footertwo from './Footertwo';
 const Offerpage = () =>{
 return (
     <div className='App'>
@@ -19,6 +20,7 @@ return (
       {/* <Callus/> */}
       <Footer/>
       <Email/>
+      <Footertwo/>
  
     </div>
 )

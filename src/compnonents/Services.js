@@ -4,38 +4,43 @@ import { Service } from './Service';
 const Services = () => {
     const servicesdetails = [
         {
-            title:'Get Great Deals',
-            description : 'Choose from 500+ airlines for low airfares!',
+            title:'Great Flight Deals ',
+            description : 'Choose from +20 Airline for cheap Philippines flights.',
             icon: bt,
         } ,
         {
-            title : 'Price Match Promise',
-            description : 'Find low prices to destinations wordlwide.',
+            title : 'Tagalog Speaking Agents ',
+            description : 'Our team of Tagalog-speaking agents is here to help you.',
             icon:bt,
         },
         {
-            title : 'Easy Cancellations with CheapOair',
-            description : 'Convenient self-service options available online.',
+            title : 'Cheapest Fares ',
+            description : 'Cheapest flight to Philippines for your flexible date.',
             icon:bt,
         },
         {
-            title : 'Expert Guidance',
-            description : 'Get personalised assistance from our travel experts. ',
+            title : 'Guaranteed Price Match ',
+            description : "Find the same flight fare cheaper elsewhere? We'll price match it!",
             icon:bt,
         },
         {
-            title : 'Trusted and Qualified ',
-            description : 'Over a decade of experience and millions of tickets sold every year',
+            title : 'Free Date Change ',
+            description : 'Enjoy a free date change for your convenience and flexibility.',
             icon:bt,
         },
         {
-            title : 'App Benefits ',
-            description : 'Earn 2x points booking through our app.',
+            title : 'ATOL Protected Bookings',
+            description : 'Your safety is our priority with ATOL-protected bookings arrangements.',
             icon:bt,
         },
         {
-            title : 'AOTL Protected ',
-            description : 'All of the flights and flight-inclusive holidays on this website are financially protected. ',
+            title : 'Easy Cancellations  ',
+            description : 'Book with confidence knowing we offer easy cancellations for your convenience.',
+            icon:bt,
+        },
+        {
+            title:'flexible flight booking payment',
+            description:'Enjoy the freedom of flexible flight booking payment choices',
             icon:bt,
         },
     ]

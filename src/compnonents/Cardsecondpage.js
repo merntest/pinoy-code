@@ -3,13 +3,16 @@ import Card from 'react-bootstrap/Card';
 import img3 from '../images/firstcard.png';
 import arrowr from '../images/arrowr.png';
 import '../styles/Cardsecondcss.css';
+import secondpageone from '../images/secondpageone.png';
+import secondpagetwo from '../images/secondpagetwo.png';
+import secondpagethree from '../images/secondpagethree.png';
 const Cardsecondpage = () => {
     
 return (
   <div>
 <div className='seccard'>
 <Card  className='cp' id='cp2id'  style={{ width: '22rem' }}>
-      <Card.Img variant="top" src={img3} className='img-br2'  />
+      <Card.Img variant="top" src={secondpagethree} className='img-br2'  />
       <div className='overlay'>
         <div className='cl'>
        <div className='dis'>
@@ -38,7 +41,7 @@ return (
       </Card.Body>
     </Card>
     <Card  className='cp' id='cp2id'  style={{ width: '22rem' }}>
-      <Card.Img variant="top" src={img3} className='img-br2'  />
+      <Card.Img variant="top" src={secondpagetwo} className='img-br2'  />
       <div className='overlay'>
         <div className='cl'>
        <div className='dis'>
@@ -67,7 +70,7 @@ return (
       </Card.Body>
     </Card>
     <Card  className='cp'  id='cp2id'  style={{ width: '22rem' }}>
-      <Card.Img variant="top" src={img3} className='img-br2'  />
+      <Card.Img variant="top" src={secondpageone} className='img-br2'  />
       <div className='overlay'>
         <div className='cl'>
        <div className='dis'>

@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card';
 import '../styles/Tripcss.css';
 import img3 from '../images/firstcard.png';
 import arrowr from '../images/arrowr.png';
+import firstpagetwo from '../images/firstpagetwo.png';
+import firstpagethree from '../images/firstpagethree.png';
 import { useEffect } from 'react';
 const Trips = () =>{
 
@@ -64,7 +66,7 @@ return (
       </Card.Body>
     </Card>
     <Card className='cp' id='cpid' style={{ width: '22rem' }}>
-      <Card.Img variant="top" src={img3} className='img-br2'  />
+      <Card.Img variant="top" src={firstpagetwo} className='img-br2'  />
       <div className='overlay'>
         <div className='cl'>
        <div className='dis'>
@@ -93,7 +95,7 @@ return (
       </Card.Body>
     </Card>
     <Card className='cp'  id='cpid'   style={{ width: '22rem' }}>
-      <Card.Img variant="top" src={img3} className='img-br2'  />
+      <Card.Img variant="top" src={firstpagethree} className='img-br2'  />
       <div className='overlay'>
         <div className='cl'>
        <div className='dis'>
@@ -169,7 +171,7 @@ return (
       </Card.Body>
     </Card>
     <Card className='cp'  id='cpid'   style={{ width: '22rem' }}>
-      <Card.Img variant="top" src={img3} className='img-br2'  />
+      <Card.Img variant="top" src={firstpagetwo} className='img-br2'  />
       <Card.Body>
       <Card.Title className='ct'>London <img src={arrowr} id='arrow-pl'></img> manila
         </Card.Title>
@@ -198,7 +200,7 @@ return (
       </Card.Body>
     </Card>
     <Card className='cp'  id='cpid'   style={{ width: '22rem' }}>
-      <Card.Img variant="top" src={img3} className='img-br2'  />
+      <Card.Img variant="top" src={firstpagethree} className='img-br2'  />
       <Card.Body>
       <Card.Title className='ct'>London <img src={arrowr} id='arrow-pl'></img> manila
         </Card.Title>

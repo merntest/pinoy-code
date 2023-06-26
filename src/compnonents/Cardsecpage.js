@@ -4,6 +4,7 @@ import arrowr from '../images/arrowr.png';
 import arrowsm from '../images/smallarrow.png';
 import '../styles/Cardseccss.css';
 import img3 from '../images/firstcard.png';
+import secondpagetop from '../images/secondpagetop.png';
 import { useEffect } from 'react';
 
 const Cardsecpage = () => {
@@ -18,7 +19,12 @@ const Cardsecpage = () => {
      }
     });
     return (
+      <div>
+                <p className="bwc" >
+Explore last-minute deals to the Philippines for unforgettable adventures, savings, and spontaneous travel experiences in stunning destinations like Manila, Cebu, and Davao. Book now and create cherished memories.
+</p>
         <div className="cd">
+  
          <div className="fl-lc">
          <Card className='cdt' id='cdtc' style={{ width: '33rem' }}>
       <Card.Img className='img-fr' variant="top" src={img3} />
@@ -48,7 +54,7 @@ const Cardsecpage = () => {
          </div>
          <div className="fl-lc">
          <Card className='cdt' id='cdtc' style={{ width: '33rem' }}>
-      <Card.Img className='img-fr' variant="top" src={img3} />
+      <Card.Img className='img-fr' variant="top" src={secondpagetop} />
       <Card.Body>
       
         <Card.Text className='ct-sec'>
@@ -73,6 +79,7 @@ const Cardsecpage = () => {
       </Card.Body>
     </Card>
          </div>
+        </div>
         </div>
     )
 }
